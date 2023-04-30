@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Home - Flom </title>
+    <div class="Flom">
+    </div>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="ads">
+      <p>For first purchase</p>
+      <img src="https://wpthemego.com/wp-content/uploads/2020/11/black-friday-deal-50-off-wordpress-themes-870x450.gif" alt="New Arrivals Ad"HEIGHT="150" WIDTH="250">
+    <header>
+      <nav>
+        <P ALIGN="center"> <img src="flom new logo  3.jpg"alt="flom"HEIGHT="40" WIDTH="60"> 
+        <a href="#home">Home</a>
+        <a href="gg.html">Login</a>
+      </nav>
+      <a href="cart.html">
+        <img src="market.jpg"HEIGHT="50" WIDTH="85" alt="Cart">
+      </a>     
+    </header>
+    <main>
+      <h2></h2>
+      <div class="products">
+        <div class="product">
+          <img src="w.jpg" alt="Hoodie 1">
+          <h3></h3>
+          <p>$50</p>
+          <a href="hoodie 1.html">
+          <button>View</button>
+        </a>
+        </div>
+        <div class="product">
+          <img src="b.jpg" alt="2">
+          <h3></h3>
+          <p>$60</p>
+          <a href="hoodie 2.html">
+          <button>View</button>
+        </a>
+        </div>
+        <div class="product">
+          <img src="r.jpg" alt="3">
+          <h3></h3>
+          <p>$70</p>
+          <a href="hoodie 3.html">
+          <button>View</button>
+        </a>
+        </div>
+        <div class="product">
+          <img src="g.jpg" alt=" 4">
+          <h3></h3>
+          <p>$80</p>
+          <a href="hoodie 4.html">
+          <button>View</button>
+        </a>
+        </div>
+        <div class="product">
+          <img src="k.jpg" alt="5">
+          <h3></h3>
+          <p>$90</p>
+          <a href="hoodie 5.html">
+          <button>View</button>
+        </a>
+        </div>
+        <div class="product">
+          <img src="blue.jpg" alt="Hoodie 6">
+          <h3></h3>
+          <p>$100</p>
+          <a href="hoodie 6.html">
+          <button>View</button>
+        </a>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p align="center">
+        <a href="mailto:floomm10@gmail.com">Contact Us</a>
+      </p>
+    </footer>
+    <div class="ads">
+      <p>Get 40% off on selected items. Limited time only!</p>
+      <img src="https://mailbakery.s3.amazonaws.com/wp-content/uploads/2015/06/26160320/neiman_marcus.gif" alt="Sale Ad">
+    </div>
+    <div class="reviews">
+      <h3>Customer Reviews:</h3>
+      <div class="review">
+        <p class="review-author">John william</p>
+        <p class="review-message">I love this T-shirt! It's so comfortable and warm, and the design is really cool. Highly recommend!</p>
+      </div>
+      <div class="review">
+        <p class="review-author">Emma Charlotte</p>
+        <p class="review-message">This T-shirt is a great purchase! The quality is fantastic and it fits me perfectly. I'm so happy with it!</p>
+      </div>
+      <!-- Add more reviews here -->
+    </div>
+  </body>
+  

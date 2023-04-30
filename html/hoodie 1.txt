@@ -1,0 +1,134 @@
+<body style="background-color: #f7f5f5;">
+    <!-- Header with navigation and cart -->
+    <!-- ... -->
+    
+    <!-- Hoodie 1 Page -->
+    <div class="hoodie1-page">
+      <h2 style="text-align: center; margin-bottom: 40px;">White Hoodie </h2>
+      <div class="product-image">
+        <P ALIGN="center"> <img src="w.jpg"alt="White Hoodie"HEIGHT="280" WIDTH="320">
+      </div>
+      <div class="product-description">
+        <p style="font-size: 20px; font-weight: bold; margin-bottom: 20px;">Price: $50</p>
+        <form action="cart.html" method="post">
+          <input type="hidden" name="hoodie" value="Hoodie 1">
+          <input type="hidden" name="price" value="50">
+          <label for="size" style="font-weight: bold;">Size:</label>
+          <select id="size" name="size">
+              <option value="XS">XS</option>
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+            <option value="XXL">XXL</option>
+            <option value="XXXL">XXXL</option>
+          </select>
+          <input type="submit" value="Add to Cart" style="margin-top: 20px; padding: 10px 20px; background-color: #333; color: #fff; border-radius: 5px; font-weight: bold;">
+        </form>
+      </div>
+    </div>
+    
+    <!-- Footer -->
+    <!-- ... -->
+     <!-- Header with navigation and cart -->
+  <!-- ... -->
+  
+  <!-- Hoodie 1 Page -->
+  <div class="hoodie1-page">
+    <!-- ... -->
+    
+    <!-- Customer Reviews -->
+    <h3 style="text-align: center; margin-top: 60px; margin-bottom: 40px;">Customer Reviews</h3>
+    <div class="review">
+      <p><strong>Sarah Alharbe:</strong>High quality T-Shirt, fits me well and looks good. I highly recommend!</p>
+    </div>
+    <div class="review">
+      <p><strong>Dana Alqhtane:</strong>I love this T-Shirt! Very comfortable and stylish. I got a lot of compliments on it.</p>
+    </div>
+  
+  <!-- Footer -->
+  <!-- ... -->
+  <div class="hoodie1-page">
+    <!-- ... -->
+    
+    <!-- Customer Reviews -->
+    <!-- ... -->
+    
+    <!-- Back to Home and Cart Buttons -->
+    <div class="buttons">
+      <a href="index.html" class="back-to-home-button">Back to Home</a>
+      <a href="cart.html" class="cart-button">View Cart</a>
+    </div>
+  </div>
+  <style>
+    /* Hoodie 1 Page */
+    .hoodie1-page {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+    
+    /* Product Image */
+    .hoodie1-page .product-image {
+      width: 40%;
+      margin-right: 20px;
+    }
+    
+    /* Product Description */
+    .hoodie1-page .product-description {
+      width: 50%;
+      text-align: left;
+    }
+    
+    /* Customer Reviews */
+    .hoodie1-page .review {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    
+    /* Back to Home and Cart Buttons */
+    .hoodie1-page .buttons {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+    
+    .hoodie1-page .back-to-home-button,
+    .hoodie1-page .cart-button {
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .reviews {
+    font-family: Arial, sans-serif;
+    margin: 30px 0;
+    text-align: center;
+  }
+  
+  .review {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .review p {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+  
+  .review strong {
+    font-size: 20px;
+    display: block;
+    margin-bottom: 10px;
+  }
+  </style>  
+  </body>
+  

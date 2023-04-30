@@ -1,0 +1,56 @@
+<meta charset="UTF-8">
+<title>Cart - Flom</title>
+<style>
+  /* Add your styles here */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    background-color: #ddd;
+  }
+  .cart-total {
+    text-align: right;
+    font-weight: bold;
+    padding-top: 20px;
+  }
+</style>
+</head>
+<body>
+<h1>Cart</h1>
+<table>
+  <tr>
+    <th>Product</th>
+    <th>Price</th>
+  </tr>
+  <!-- Add rows for each item in the cart here -->
+  <tr>
+    <td>Hoodie 1</td>
+    <td>$50</td>
+  </tr>
+  <tr>
+    <td>Hoodie 2</td>
+    <td>$60</td>
+  </tr>
+  <!-- Add more rows for each item here -->
+</table>
+  <button id="pay-button">Pay</button>
+  <br>
+  <div class="cart-total">
+    Total: <span id="total"></span>
+  </div>  
+<script>
+  document.querySelector("#total").textContent = "$" + total.toFixed(2);
+  const prices = document.querySelectorAll("td:nth-child(2)");
+  let total = 0;
+  prices.forEach(price => {
+    total += parseFloat(price.textContent.substr(1));
+  });
+</script>
+
+  
